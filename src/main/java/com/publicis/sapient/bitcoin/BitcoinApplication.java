@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.publicis.sapient.bitcoin.*"})
 public class BitcoinApplication {
 	
 	public static void main(String[] args) {
